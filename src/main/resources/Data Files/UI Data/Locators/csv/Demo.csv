@@ -1,0 +1,5 @@
+Locatorname,Locatorvalue,Locatortype,Text
+Username,hero_user_email,Id,
+SignUp_Button,//button[@class='btn-mktg width-full width-md-auto mb-3 mb-md-0 rounded-md-left-0 home-campaign-signup-button btn-signup-mktg'],xpath
+Click,//button[@class='btn-mktg width-full width-md-auto mb-3 mb-md-0 rounded-md-left-0 home-campaign-signup-button btn-signup-mktg'],xpath
+

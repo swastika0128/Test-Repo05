@@ -1,0 +1,138 @@
+Keys,Body,Header,Queryparametrs,Authorization,Cookies
+FR,"{ ""location"": { ""lat"": -38.383494, ""lng"": 33.427362 }, ""accuracy"": 50, ""name"": ""#{name}"", ""phone_number"": ""#{phone_number}"", ""address"": ""29, side layout, cohen 09"", ""types"": [ ""shoe park"", ""shop"" ], ""website"": ""http://google.com"", ""language"": ""French-IN"" }","{
+""Content-Type"": ""application/json""
+}","{
+  ""QueryParams"": {
+    ""query"": ""qaclick123""
+  },
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]","{ ""cook"": ""qaclick123""}"
+PR,"{
+""place_id"":""#{place_id}"",
+""address"":""70 winter walk, USA"",
+""key"":""qaclick123""
+}","{
+""Content-Type"": ""application/json""
+}","{
+  ""QueryParams"": {
+    ""query"": ""qaclick123""
+  },
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza"",""place"":""3672ey""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]",{}
+SR,"{
+""place_id"":""#{place_id}""
+}","{
+""Content-Type"": ""application/json""
+}","{
+  ""QueryParams"": {
+    ""query"": ""qaclick123""
+  },
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]",{}
+CR,{},{},"{
+  ""QueryParams"": {},
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": ""postman"", ""Password"": ""password""},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]","{ ""cook"": ""qaclick123""}"
+File,"{
+  ""file"": ""*{D:\\Stellar_Project\\Stellar_Project_VAFSAMPLE_VAF_CORE\\core\\Stellar_with_Asadrazamahmood\\MergingBrowsercapabilitywork\\VAFCORE_5\\vaf-core\\src\\main\\resources\\Files\\Screenshot.png}"",""key"":""value"",""key1"":""value1""
+}","{
+""Content-Type"": ""multipart/form-data""
+}","{
+  ""QueryParams"": {},
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]",{}
+XML,"<?xml version=""1.0"" encoding=""utf-8""?>
+<soap:Envelope xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
+  <soap:Body>
+    <CelsiusToFahrenheit xmlns=""https://www.w3schools.com/xml/"">
+      <Celsius>string</Celsius>
+    </CelsiusToFahrenheit>
+  </soap:Body>
+</soap:Envelope>","{
+""Content-Type"": ""text/xml""
+}","{
+  ""QueryParams"": {},
+  ""PathParams"": {}
+}","[
+  {
+    ""Environment"": ""Development"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""false""},
+    ""RequestData"": {""name"": ""Raza""}
+  },
+  {
+    ""Environment"": ""Production"",
+    ""Credentials"": {""Username"": """", ""Password"": """"},
+    ""Props"": {""Preemptive"": ""true""},
+    ""RequestData"": {""name"": ""Name"", ""phone_number"": ""1234""}
+  }
+]",{}
+,,,,,{}
+,,,,,{}
+,,,,,"{ ""cook"": ""qaclick123""}"
+,,,,,"{ ""cook"": ""qaclick123""}"

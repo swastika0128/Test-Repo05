@@ -1,0 +1,20 @@
+query fetchAllBooks {
+    findAllBooks {
+        id
+        title
+        isbn
+        pageCount
+        author {
+            ...AuthorFragment
+        }
+    }
+}
+
+mutation DelBook ($delBook:ID!){
+    deleteBook(id:$delBook)
+}
+fragment AuthorFragment on Author {
+    id
+    firstName
+    lastName
+}

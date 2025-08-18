@@ -1,0 +1,24 @@
+
+query fetchCountriesData($countryCode: ID!) {
+    country(code: $countryCode) {
+        name
+        native
+        capital
+        emoji
+        currency
+        languages {
+            code
+            name
+        }
+    }
+}
+
+fragment AuthorFragment on Author {
+    id
+    firstName
+    lastName
+}
+
+mutation DelBook ($delBook:ID!){
+    deleteBook(id:$delBook)
+}

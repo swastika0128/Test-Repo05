@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+~ Copyright 2021 EPAM Systems
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~ http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+<configuration>
+    <!-- Send debug messages to System.out -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- By default, encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- File Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/${LOG_KEY}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/${LOG_KEY}-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <!--Best practice: don't put time and logging level to the final message. Appender do this for you-->
+            <pattern>%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n</pattern>
+            <pattern>[%t] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Conditional logger configuration -->
+    <!-- Conditional logger configuration -->
+    <logger name="binary_data_logger" level="${LOG_LEVEL}" additivity="false">
+    </logger>
+    <if condition='("console").equalsIgnoreCase("${ACTIVE_APPENDER}")'>
+        <then>
+            <logger name="VAF_LOGGER" level="${LOG_LEVEL}">
+                <appender-ref ref="CONSOLE" />
+            </logger>
+        </then>
+    </if>
+    <if condition='("console").equalsIgnoreCase("${ACTIVE_APPENDER}")'>
+        <then>
+            <logger name="VAF_LOGGER" level="${LOG_LEVEL}">
+                <appender-ref ref="CONSOLE" />
+            </logger>
+        </then>
+    </if>
+    <if condition='("file").equalsIgnoreCase("${ACTIVE_APPENDER}")'>
+        <then>
+            <logger name="VAF_LOGGER" level="${LOG_LEVEL}">
+                <appender-ref ref="FILE" />
+            </logger>
+        </then>
+    </if>
+    <if condition='("both").equalsIgnoreCase("${ACTIVE_APPENDER}")'>
+        <then>
+            <logger name="VAF_LOGGER" level="${LOG_LEVEL}">
+                <appender-ref ref="FILE" />
+                <appender-ref ref="CONSOLE" />
+            </logger>
+        </then>
+    </if>
+    <logger name="com.epam.reportportal.service" level="On"/>
+    <logger name="com.epam.reportportal.utils" level="On"/>
+    <!-- Disable logging for Cucumber -->
+    <logger name="io.cucumber" level="on" />
+    <logger name="org.testng" level="OFF" />
+    <logger name="io.gatling" level="OFF" />
+    <logger name="org.openqa.selenium" level="on" />
+    <logger name="com.fasterxml.jackson" level="on" />
+    <logger name="com.aventstack" level="OFF" />
+    <logger name="com.itextpdf" level="OFF" />
+    <logger name="org.apache.poi" level="OFF" />
+    <logger name="org.json" level="OFF" />
+    <logger name="io.github.bonigarcia" level="OFF" />
+    <logger name="com.paulhammant" level="OFF" />
+    <logger name="org.apache.groovy" level="OFF" />
+    <logger name="io.rest-assured" level="OFF" />
+    <logger name="org.apache.commons" level="OFF" />
+    <logger name="io.gatling" level="OFF" />
+    <logger name="org.jodd" level="OFF" />
+    <logger name="com.deque" level="OFF" />
+    <logger name="com.jayway.jsonpath" level="OFF" />
+    <logger name="io.qameta.allure" level="OFF" />
+    <logger name="org.codehaus.mojo" level="OFF" />
+    <logger name="software.amazon.awssdk" level="OFF" />
+    <logger name="io.gatling.highcharts" level="OFF" />
+    <logger name="ch.qos.logback" level="OFF" />
+    <logger name="com.amazonaws" level="OFF" />
+    <logger name="io.appium" level="OFF" />
+    <logger name="org.jacoco" level="OFF" />
+    <!-- <logger name="ch.qos.logback" level="OFF" />-->
+    <logger name="commons-io" level="OFF" />
+    <logger name="org.projectlombok" level="OFF" />
+    <!-- Disable logging for Netty and AsyncHttpClient -->
+    <logger name="io.netty" level="OFF"/>
+    <logger name="org.asynchttpclient" level="OFF"/>
+    <!-- Disable logging for Apache HttpClient -->
+    <logger name="org.apache.http" level="OFF" />
+    <logger name="org.apache.http.wire" level="OFF" />
+    <!-- By default, the level of the root level is set to DEBUG -->
+    <!-- <root level="INFO">-->
+    <!-- <appender-ref ref="RP"/>-->
+    <!-- <appender-ref ref="STDOUT"/>-->
+    <!-- </root>-->
+    <!-- <root level="TRACE">-->
+    <!-- <appender-ref ref="CONSOLE"/>-->
+    <!-- <appender-ref ref="RP"/>-->
+    <!-- </root>-->
+</configuration>

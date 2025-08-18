@@ -1,0 +1,185 @@
+{
+    "FR": {
+        "Body": {
+            "location": {
+                "lat": -38.383494,
+                "lng": 33.427362
+            },
+            "accuracy": 50,
+            "name": "#{name}",
+            "phone_number": "#{phone_number}",
+            "address": "29, side layout, cohen 09",
+            "types": [
+                "shoe park",
+                "shop"
+            ],
+            "website": "http://google.com",
+            "language": "French-IN"
+        },
+        "Headers": {
+            "Content-Type": "application/json"
+        },
+        "Params": {
+            "QueryParams": {
+                "query": "qaclick123"
+            },
+            "PathParams": {}
+        },
+        "Authorization": [
+            {
+                "Environment": "Development",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "false"
+                },
+                "RequestData": {
+                    "name": "Raza"
+                }
+            },
+            {
+                "Environment": "Production",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "true"
+                },
+                "RequestData": {
+                    "name": "Name",
+                    "phone_number": "1234"
+                }
+            }
+        ],
+        "Cookies": {"key": "value"}
+    },
+    "PR": {
+        "Body": {
+            "place_id": "#{place_id}",
+            "address": "70 winter walk, USA",
+            "key": "qaclick123"
+        },
+        "Headers": {
+            "Content-Type": "application/json"
+        },
+        "Params": {
+            "QueryParams": {
+                "query": "qaclick123"
+            },
+            "PathParams": {}
+        },
+        "Authorization": [
+            {
+                "Environment": "Development",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "false"
+                },
+                "RequestData": {
+                    "name": "Raza"
+                }
+            },
+            {
+                "Environment": "Production",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "true"
+                },
+                "RequestData": {
+                    "name": "Name",
+                    "phone_number": "1234"
+                }
+            }
+        ],
+        "Cookies": {}
+    },
+    "SR": {
+        "Body": {
+            "place_id": "#{place_id}"
+        },
+        "Headers": {
+            "Content-Type": "application/json"
+        },
+        "Params": {
+            "QueryParams": {
+                "query": "qaclick123"
+            },
+            "PathParams": {}
+        },
+        "Authorization": [
+            {
+                "Environment": "Development",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "false"
+                },
+                "RequestData": {
+                    "name": "Raza"
+                }
+            },
+            {
+                "Environment": "Production",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "true"
+                },
+                "RequestData": {
+                    "name": "Name",
+                    "phone_number": "1234"
+                }
+            }
+        ],
+        "Cookies": {}
+    },
+    "CR": {
+        "Body": {},
+        "Headers": {},
+        "Params": {"QueryParams": {},
+            "PathParams": {}},
+        "Authorization": [
+            {
+                "Environment": "Development",
+                "Credentials": {
+                    "Username": "postman",
+                    "Password": "password"
+                },
+                "Props": {
+                    "Preemptive": "false"
+                },
+                "RequestData": {
+                    "name": "Raza"
+                }
+            },
+            {
+                "Environment": "Production",
+                "Credentials": {
+                    "Username": "",
+                    "Password": ""
+                },
+                "Props": {
+                    "Preemptive": "true"
+                },
+                "RequestData": {
+                    "name": "Name",
+                    "phone_number": "1234"
+                }
+            }
+        ],
+        "Cookies": {}
+    }
+}

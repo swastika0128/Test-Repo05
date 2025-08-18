@@ -1,0 +1,16 @@
+{
+  "Global": {
+    "Headers": {},
+    "Cookies": {
+      "Key": "value"
+    }
+  },
+  "PR": {
+    "Headers": {
+      "Accept": "*/*"
+    },
+    "Cookies": {
+      "cookies": "sdugsdfjsfjjhs7df6qew7fyuhnmg"
+    }
+  }
+}

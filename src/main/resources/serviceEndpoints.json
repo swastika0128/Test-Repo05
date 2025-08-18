@@ -1,0 +1,20 @@
+{
+  "NOTE": "ANY DYNAMIC VALUE IN URL PATH NEEDS TO BE ADDED IN SCENARIO AS NEEDED.",
+  "API": {
+    "post": "/maps/api/place/add/json",
+    "login": "/maps/api/place/update/json",
+    "delete": "/maps/api/place/delete/json",
+    "sampleRequest": "/maps/api/place/get/json",
+    "put": "/maps/api/place/update/json",
+    "basicAuth": "/basic-auth",
+    "fileUploading": "",
+    "xml": ""
+  },
+  "UI": {
+    "pricing": "pricing"
+  },
+  "Accessibility": {
+    "Pricing": "/pricing"
+  }
+
+}

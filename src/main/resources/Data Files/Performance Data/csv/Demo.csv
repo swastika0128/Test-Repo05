@@ -1,0 +1,5 @@
+TestCases,Body,Header,Queryparametrs,Authorization
+FR,"{ ""location"": { ""lat"": -38.383494, ""lng"": 33.427362 }, ""accuracy"": 50, ""name"": ""asad"", ""phone_number"": ""+98e73463"", ""address"": ""29, side layout, cohen 09"", ""types"": [ ""shoe park"", ""shop"" ], ""website"": ""http://google.com"", ""language"": ""French-IN"" }","{
+""Content-Type"": ""application/json""
+}","{""Key"":""qaclick123""}","{""Username"":"""",""Password"":""""}"
+CR,{},{},{},"{""Username"":""postman"",""Password"":""password""}"

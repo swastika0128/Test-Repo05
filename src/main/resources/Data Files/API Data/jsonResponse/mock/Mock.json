@@ -1,0 +1,44 @@
+[
+  {
+    "/maps/api/place": {
+      "response": {
+        "headers": {
+          "Content-Type": "application/json",
+          "Cache-Control": "no-cache",
+          "Connection": "keep-alive"
+        },
+        "body": {
+          "userId": 12345,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "roles": ["user", "admin"]
+        },
+        "cookies": {
+          "session_id": "abcd1234",
+          "expires": "2024-12-01T00:00:00Z"
+        }
+      }
+    }
+  },
+  {
+    "/api/v1": {
+      "response": {
+        "headers": {
+          "Content-Type": "application/json",
+          "Cache-Control": "no-cache",
+          "Connection": "keep-alive"
+        },
+        "body": {
+          "productId": 98765,
+          "name": "Laptop",
+          "price": 1499.99,
+          "stock": 50
+        },
+        "cookies": {
+          "cart_id": "cart5678",
+          "expires": "2024-12-01T00:00:00Z"
+        }
+      }
+    }
+  }
+]

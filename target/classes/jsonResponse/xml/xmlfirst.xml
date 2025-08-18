@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <name>Vertex IT Systems</name>
+    <location>
+        <country>USA</country>
+        <state>California</state>
+        <city>San Francisco</city>
+        <address>
+            <street>Main Street</street>
+            <number>123</number>
+            <zipcode>94105</zipcode>
+        </address>
+    </location>
+    <departments>
+        <department>
+            <name>Engineering</name>
+            <employees>
+                <employee>
+                    <id>1</id>
+                    <name>John Doe</name>
+                    <position>Software Engineer</position>
+                    <email>john.doe@vertexitsystems.com</email>
+                </employee>
+                <employee>
+                    <id>2</id>
+                    <name>Jane Smith</name>
+                    <position>null</position> <!-- Position explicitly set to "null" -->
+                    <email>jane.smith@vertexitsystems.com</email>
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <name>Human Resources</name>
+            <employees>
+                <employee>
+                    <id>3</id>
+                    <name>Michael Johnson</name>
+                    <position>HR Manager</position>
+                    <email>michael.johnson@vertexitsystems.com</email>
+                </employee>
+                <employee>
+                    <id>4</id>
+                    <name>Emily Davis</name>
+                    <position>HR Specialist</position>
+                    <email></email> <!-- Null value for email -->
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <name>Marketing</name>
+            <employees>
+                <employee>
+                    <id>5</id>
+                    <name>William Brown</name>
+                    <position>Marketing Manager</position>
+                    <email>william.brown@vertexitsystems.com</email>
+                </employee>
+                <employee>
+                    <id>6</id>
+                    <name>Olivia Wilson</name>
+                    <position>Marketing Specialist</position>
+                    <email>olivia.wilson@vertexitsystems.com</email>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+    <projects>
+        <project>
+            <id>P1</id>
+            <name>Project Alpha</name>
+            <department>Engineering</department>
+            <budget>100000</budget>
+            <deadline>2023-12-31</deadline>
+        </project>
+        <project>
+            <id>P2</id>
+            <name>Project Beta</name>
+            <department>Marketing</department>
+            <budget>50000</budget>
+            <deadline>2023-06-30</deadline>
+        </project>
+        <project>
+            <id>P3</id>
+            <name>Project Gamma</name>
+            <department>Human Resources</department>
+            <budget>30000</budget>
+            <deadline></deadline> <!-- Null value for deadline -->
+        </project>
+    </projects>
+    <financials>
+        <year>2023</year>
+        <revenue>5000000</revenue>
+        <expenses>4000000</expenses>
+    </financials>
+</company>

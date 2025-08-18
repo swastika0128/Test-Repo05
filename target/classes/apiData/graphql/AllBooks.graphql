@@ -1,0 +1,17 @@
+query fetchAllBooks {
+    findAllBooks {
+        id
+        title
+        isbn
+        pageCount
+        author {
+            id
+            firstName
+            lastName
+        }
+    }
+}
+
+mutation DelBook ($delBook:ID!){
+    deleteBook(id:$delBook)
+}

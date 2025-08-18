@@ -1,0 +1,56 @@
+Keys,Body,Header,Queryparametrs,Authorization
+CR,"{
+      ""name"": ""${name}"",
+      ""phone_number"": ""${phone_number}""
+    }",{},{},"[
+      {
+        ""Environment"": ""Development"",
+        ""Credentials"": {
+          ""Username"": [
+            ""postman"",
+            ""postman""
+          ],
+          ""Password"": [
+            ""password"",
+            ""password""
+          ]
+        },
+        ""Props"": {
+          ""Preemptive"": ""false""
+        },
+        ""RequestData"": {
+          ""name"": ""Raza"",
+          ""phone_number"": ""1234"",
+          ""Content-Type"": ""application/json"",
+          ""Key"": ""qaclick123"",
+          ""lat"": ""67street""
+        }
+      },
+      {
+        ""Environment"": ""production"",
+        ""Credentials"": {
+          ""Username"": """",
+          ""Password"": """"
+        },
+        ""Props"": {
+          ""Preemptive"": ""true""
+        },
+        ""Body"": {
+          ""name"": ""Name""
+        }
+      },
+      {
+        ""Environment"": ""UAT"",
+        ""Credentials"": {
+          ""Username"": ""stellar"",
+          ""Password"": ""stellar123""
+        },
+        ""Props"": {
+          ""Preemptive"": ""true""
+        },
+        ""Body"": {
+          ""name"": ""Name"",
+          ""phn"": ""Password""
+        }
+      }
+    ]"

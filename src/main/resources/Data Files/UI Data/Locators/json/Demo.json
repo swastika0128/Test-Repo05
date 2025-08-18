@@ -1,0 +1,19 @@
+{
+    "Username": {
+        "Value": "hero_user_email",
+        "Type": "Id"
+    },
+    "SignUpButton": {
+        "Value": "//button[@class='Primer_Brand__Button-module__Button___lDruK Primer_Brand__Button-module__Button--primary___xIC7G Primer_Brand__Button-module__Button--size-medium___EyCyw CtaForm-primaryAction CtaFormControl-button js-hero-action']",
+        "Type": "xpath"
+    },
+    "HeaderButton": {
+        "Value": "",
+        "Type": ""
+    },
+    "resetButton": {
+        "Value": "",
+        "Type": ""
+    }
+
+}

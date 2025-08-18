@@ -1,0 +1,2 @@
+Key,PLATFORM_NAME,Browser_version,URL(For sacuce labs only),Test Name,Build
+sauce,Windows 10,latest,https://ondemand.us-west-1.saucelabs.com:443/wd/hub,SpectrumMobile,First1.0.1
