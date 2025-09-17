@@ -1,1 +1,2 @@
-hello from remote
+hello from remote for multiple conflicts
+
