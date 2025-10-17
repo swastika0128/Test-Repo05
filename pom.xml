@@ -1,0 +1,441 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.stellar.sample</groupId>
+    <artifactId>com.stellar.sample</artifactId>
+    <version>1.0.1</version>
+    <name>Stellar Sample Project</name>
+    <description>Stellar is a unified automation solution for all your QA requirements.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>Stellar</groupId>
+            <artifactId>io.vstellar</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${org.testng}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${com.jackson}</version>
+        </dependency>
+
+        <!-- Extent Report -->
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${com.aventstack}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports-cucumber4-adapter</artifactId>
+            <version>${com.aventstack-cucumber}</version>
+        </dependency>
+
+        <!-- Dependencies for FileUtil.java -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>${com.itextpdf}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${org.apache.poi}</version>
+        </dependency>
+
+
+        <!-- JSON Utiltiy (mainly Used in ConfigUtil.java) -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${org.json}</version>
+        </dependency>
+
+        <!-- Selenium Lib -->
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${io.github.bonigarcia-webdrivermanager}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${org.seleniumhq.selenium-selenium-java-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.paulhammant</groupId>
+            <artifactId>ngwebdriver</artifactId>
+            <version>${com.paulhammant-ngwebdriver}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.groovy/groovy-xml -->
+
+
+        <!-- RestAssured Lib -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${io.rest-assured}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+
+
+        <!-- Report Portal Lib & Dependencis-->
+
+        <dependency>
+            <groupId>com.epam.reportportal</groupId>
+            <artifactId>agent-java-cucumber4</artifactId>
+            <version>${com.epam.reportportal-agent-java-cucumber4}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.epam.reportportal</groupId>
+            <artifactId>logger-java-logback</artifactId>
+            <version>${com.epam.reportportal-logger-java-logback}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${io.cucumber-cucumber-junit}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${io.cucumber-cucumber-java}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>${io.cucumber-gherkin}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${ch.qos.logback}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.projectlombok-lombok}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-opera-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-opera-driver</artifactId>
+            <version>${org.seleniumhq.selenium-selenium-opera-driver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>${com.googlecode.json-simple-json-simple}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/kg.apc/jmeter-plugins-cmn-jmeter -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>${org.apache.commons-commons-csv}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-http</artifactId>
+            <version>${io.gatling-gatling-http}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.gatling/gatling-core-java -->
+        <dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-core</artifactId>
+            <version>${io.gatling-gatling-core}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.gatling.highcharts</groupId>
+            <artifactId>gatling-charts-highcharts</artifactId>
+            <version>${io.gatling.highcharts-gatling-charts-highcharts}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-app</artifactId>
+            <version>${io.gatling-gatling-app}</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jodd/jodd-lagarto -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-lagarto</artifactId>
+            <version>${org.jodd-jodd-lagarto}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-recorder</artifactId>
+            <version>${io.gatling-gatling-recorder}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.deque</groupId>
+            <artifactId>axe-selenium</artifactId>
+            <version>${com.deque-axe-selenium}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.deque.html.axe-core/dequeutilites -->
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>dequeutilites</artifactId>
+            <version>${com.deque.html.axe-core-dequeutilites}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>selenium</artifactId>
+            <version>${com.deque.html.axe-core-selenium}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>${com.jayway.jsonpath-json-path}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber4-jvm</artifactId>
+            <version>${io.qameta.allure-allure-cucumber4-jvm}</version> <!-- Replace with the latest version -->
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit4</artifactId>
+            <version>${io.qameta.allure-allure-junit4}</version> <!-- Replace with the latest version -->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${io.qameta.allure-allure-testng}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>${io.qameta.allure-allure-java-commons}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-plugin-api</artifactId>
+            <version>${io.qameta.allure-allure-plugin-api}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/properties-maven-plugin -->
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>properties-maven-plugin</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>aws-sdk-java</artifactId>
+            <version>2.10.60</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-core</artifactId>
+            <version>1.12.701</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.core -->
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>org.jacoco.core</artifactId>
+            <version>0.8.12</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.graphql-java/graphql-java -->
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>22.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.graphql-java-kickstart</groupId>
+            <artifactId>graphql-java-tools</artifactId>
+            <version>12.0.0</version> <!-- Use the latest version -->
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.7.0.jre11-preview</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>23.4.0.24.05</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+            <version>3.1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.epam.healenium</groupId>
+            <artifactId>healenium-web</artifactId>
+            <version>3.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.8</version>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>9.4.0</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <conEnv>none</conEnv>
+        <org.testng>7.7.1</org.testng>
+        <com.jackson>2.16.1</com.jackson>
+        <com.aventstack>5.0.9</com.aventstack>
+        <com.aventstack-cucumber>1.2.1</com.aventstack-cucumber>
+        <org.json>20180130</org.json>
+        <io.github.bonigarcia-webdrivermanager>5.3.2</io.github.bonigarcia-webdrivermanager>
+        <com.paulhammant-ngwebdriver>1.1.4</com.paulhammant-ngwebdriver>
+        <io.rest-assured>5.3.0</io.rest-assured>
+        <com.epam.reportportal-agent-java-cucumber4>5.1.2</com.epam.reportportal-agent-java-cucumber4>
+        <com.epam.reportportal-logger-java-logback>5.1.3</com.epam.reportportal-logger-java-logback>
+        <io.cucumber-cucumber-junit>4.8.1</io.cucumber-cucumber-junit>
+        <io.cucumber-cucumber-java>4.8.1</io.cucumber-cucumber-java>
+        <io.cucumber-gherkin>5.1.0</io.cucumber-gherkin>
+        <ch.qos.logback>1.2.11</ch.qos.logback>
+        <commons-io>2.7</commons-io>
+        <org.apache.maven.plugins-compiler-plugin>3.11.0</org.apache.maven.plugins-compiler-plugin>
+        <org.apache.maven.plugins-exec-plugin>3.1.1</org.apache.maven.plugins-exec-plugin>
+        <org.projectlombok-lombok>1.18.38</org.projectlombok-lombok>
+        <com.itextpdf>5.5.13.1</com.itextpdf>
+        <org.apache.poi>4.1.0</org.apache.poi>
+        <org.seleniumhq.selenium-selenium-java-version>4.29.0</org.seleniumhq.selenium-selenium-java-version>
+        <org.apache.maven.plugins-maven-compiler-plugin>3.11.0</org.apache.maven.plugins-maven-compiler-plugin>
+        <io.qameta.allure-allure-plugin-api>2.26.0</io.qameta.allure-allure-plugin-api>
+        <io.qameta.allure-allure-java-commons>2.26.0</io.qameta.allure-allure-java-commons>
+        <io.qameta.allure-allure-testng>2.26.0</io.qameta.allure-allure-testng>
+        <org.seleniumhq.selenium-selenium-opera-driver>4.4.0</org.seleniumhq.selenium-selenium-opera-driver>
+        <com.googlecode.json-simple-json-simple>1.1.1</com.googlecode.json-simple-json-simple>
+        <org.apache.jmeter-ApacheJMeter_core>5.5</org.apache.jmeter-ApacheJMeter_core>
+        <org.apache.jmeter-ApacheJMeter_http>5.5</org.apache.jmeter-ApacheJMeter_http>
+        <org.apache.commons-commons-csv>1.9.0</org.apache.commons-commons-csv>
+        <io.gatling-gatling-http>3.9.5</io.gatling-gatling-http>
+        <io.gatling-gatling-core>3.9.5</io.gatling-gatling-core>
+        <io.gatling.highcharts-gatling-charts-highcharts>3.9.5</io.gatling.highcharts-gatling-charts-highcharts>
+        <io.gatling-gatling-app>3.9.5</io.gatling-gatling-app>
+        <org.jodd-jodd-lagarto>6.0.6</org.jodd-jodd-lagarto>
+        <io.gatling-gatling-recorder>3.9.5</io.gatling-gatling-recorder>
+        <com.deque-axe-selenium>3.0</com.deque-axe-selenium>
+        <com.deque.html.axe-core-dequeutilites>4.6.0</com.deque.html.axe-core-dequeutilites>
+        <com.deque.html.axe-core-selenium>4.6.0</com.deque.html.axe-core-selenium>
+        <com.jayway.jsonpath-json-path>2.6.0</com.jayway.jsonpath-json-path>
+        <io.qameta.allure-allure-cucumber4-jvm>2.26.0</io.qameta.allure-allure-cucumber4-jvm>
+        <io.qameta.allure-allure-junit4>2.26.0</io.qameta.allure-allure-junit4>
+        <aspectj.version>1.8.10</aspectj.version>
+    </properties>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${org.apache.maven.plugins-compiler-plugin}</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>write-project-properties</goal>
+                        </goals>
+                        <configuration>
+                            <outputFile>${project.build.testOutputDirectory}/my.properties</outputFile>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>
