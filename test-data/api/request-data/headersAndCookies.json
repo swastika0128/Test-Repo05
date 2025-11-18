@@ -1,0 +1,8 @@
+{
+  "SAMPLE_REQUEST": {
+    "Headers": {},
+    "Cookies": {
+      "Key": "value"
+    }
+  }
+}
