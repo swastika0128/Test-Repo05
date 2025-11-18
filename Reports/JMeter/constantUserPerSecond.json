@@ -1,0 +1,354 @@
+{
+  "overview" : {
+    "totalSamples" : 20,
+    "failedSamples" : 0,
+    "avgResponseTime" : 519.7,
+    "errorPercentage" : 0.0
+  },
+  "percentiles" : {
+    "p90" : 615.0,
+    "p95" : 794.0,
+    "p99" : 886.0
+  },
+  "timeSeries" : {
+    "responseTimeOverTime" : [ ],
+    "responseTimePercentilesOverTime" : [ {
+      "timestamp" : 0,
+      "p90" : 794.0,
+      "p95" : 794.0,
+      "p99" : 794.0
+    }, {
+      "timestamp" : 1,
+      "p90" : 886.0,
+      "p95" : 886.0,
+      "p99" : 886.0
+    }, {
+      "timestamp" : 2,
+      "p90" : 615.0,
+      "p95" : 615.0,
+      "p99" : 615.0
+    }, {
+      "timestamp" : 3,
+      "p90" : 551.0,
+      "p95" : 551.0,
+      "p99" : 551.0
+    }, {
+      "timestamp" : 4,
+      "p90" : 565.0,
+      "p95" : 565.0,
+      "p99" : 565.0
+    }, {
+      "timestamp" : 5,
+      "p90" : 515.0,
+      "p95" : 515.0,
+      "p99" : 515.0
+    }, {
+      "timestamp" : 6,
+      "p90" : 510.0,
+      "p95" : 510.0,
+      "p99" : 510.0
+    }, {
+      "timestamp" : 7,
+      "p90" : 566.0,
+      "p95" : 566.0,
+      "p99" : 566.0
+    }, {
+      "timestamp" : 8,
+      "p90" : 503.0,
+      "p95" : 503.0,
+      "p99" : 503.0
+    }, {
+      "timestamp" : 9,
+      "p90" : 516.0,
+      "p95" : 516.0,
+      "p99" : 516.0
+    } ],
+    "activeThreadsOverTime" : [ ],
+    "latenciesOverTime" : [ {
+      "timestamp" : 0,
+      "avgLatency" : 791.0
+    }, {
+      "timestamp" : 1,
+      "avgLatency" : 605.3333333333334
+    }, {
+      "timestamp" : 2,
+      "avgLatency" : 563.0
+    }, {
+      "timestamp" : 3,
+      "avgLatency" : 482.0
+    }, {
+      "timestamp" : 4,
+      "avgLatency" : 511.0
+    }, {
+      "timestamp" : 5,
+      "avgLatency" : 463.0
+    }, {
+      "timestamp" : 6,
+      "avgLatency" : 457.5
+    }, {
+      "timestamp" : 7,
+      "avgLatency" : 498.0
+    }, {
+      "timestamp" : 8,
+      "avgLatency" : 449.5
+    }, {
+      "timestamp" : 9,
+      "avgLatency" : 464.0
+    } ],
+    "connectTimeOverTime" : [ {
+      "timestamp" : 0,
+      "avgConnectTime" : 644.0
+    }, {
+      "timestamp" : 1,
+      "avgConnectTime" : 391.0
+    }, {
+      "timestamp" : 2,
+      "avgConnectTime" : 377.0
+    }, {
+      "timestamp" : 3,
+      "avgConnectTime" : 282.0
+    }, {
+      "timestamp" : 4,
+      "avgConnectTime" : 323.5
+    }, {
+      "timestamp" : 5,
+      "avgConnectTime" : 274.0
+    }, {
+      "timestamp" : 6,
+      "avgConnectTime" : 269.0
+    }, {
+      "timestamp" : 7,
+      "avgConnectTime" : 297.5
+    }, {
+      "timestamp" : 8,
+      "avgConnectTime" : 263.5
+    }, {
+      "timestamp" : 9,
+      "avgConnectTime" : 275.5
+    } ],
+    "hitsPerSec" : [ ],
+    "responseCodesPerSec" : [ {
+      "timestamp" : 0,
+      "codes" : {
+        "200" : 1
+      }
+    }, {
+      "timestamp" : 1,
+      "codes" : {
+        "200" : 3
+      }
+    }, {
+      "timestamp" : 2,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 3,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 4,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 5,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 6,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 7,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 8,
+      "codes" : {
+        "200" : 2
+      }
+    }, {
+      "timestamp" : 9,
+      "codes" : {
+        "200" : 2
+      }
+    } ],
+    "transactionsPerSec" : [ {
+      "timestamp" : 0,
+      "transactions" : 1
+    }, {
+      "timestamp" : 1,
+      "transactions" : 3
+    }, {
+      "timestamp" : 2,
+      "transactions" : 2
+    }, {
+      "timestamp" : 3,
+      "transactions" : 2
+    }, {
+      "timestamp" : 4,
+      "transactions" : 2
+    }, {
+      "timestamp" : 5,
+      "transactions" : 2
+    }, {
+      "timestamp" : 6,
+      "transactions" : 2
+    }, {
+      "timestamp" : 7,
+      "transactions" : 2
+    }, {
+      "timestamp" : 8,
+      "transactions" : 2
+    }, {
+      "timestamp" : 9,
+      "transactions" : 2
+    } ],
+    "responseTimeVsRequestsPerSec" : [ {
+      "timestamp" : 0,
+      "avgResponseTime" : 794.0,
+      "reqPerSec" : 1
+    }, {
+      "timestamp" : 1,
+      "avgResponseTime" : 605.6666666666666,
+      "reqPerSec" : 3
+    }, {
+      "timestamp" : 2,
+      "avgResponseTime" : 563.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 3,
+      "avgResponseTime" : 482.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 4,
+      "avgResponseTime" : 511.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 5,
+      "avgResponseTime" : 463.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 6,
+      "avgResponseTime" : 458.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 7,
+      "avgResponseTime" : 498.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 8,
+      "avgResponseTime" : 450.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 9,
+      "avgResponseTime" : 464.0,
+      "reqPerSec" : 2
+    } ],
+    "latencyVsRequestsPerSec" : [ {
+      "timestamp" : 0,
+      "avgLatency" : 791.0,
+      "reqPerSec" : 1
+    }, {
+      "timestamp" : 1,
+      "avgLatency" : 605.3333333333334,
+      "reqPerSec" : 3
+    }, {
+      "timestamp" : 2,
+      "avgLatency" : 563.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 3,
+      "avgLatency" : 482.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 4,
+      "avgLatency" : 511.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 5,
+      "avgLatency" : 463.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 6,
+      "avgLatency" : 457.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 7,
+      "avgLatency" : 498.0,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 8,
+      "avgLatency" : 449.5,
+      "reqPerSec" : 2
+    }, {
+      "timestamp" : 9,
+      "avgLatency" : 464.0,
+      "reqPerSec" : 2
+    } ]
+  },
+  "responseTimeOverview" : {
+    "min" : 397,
+    "max" : 886,
+    "avg" : 519.7,
+    "stddev" : 124.28720770859728
+  },
+  "responseTimeDistribution" : [ {
+    "bucket" : "<=100ms",
+    "count" : 0
+  }, {
+    "bucket" : "<=200ms",
+    "count" : 0
+  }, {
+    "bucket" : "<=500ms",
+    "count" : 8
+  }, {
+    "bucket" : "<=1000ms",
+    "count" : 20
+  }, {
+    "bucket" : "<=2000ms",
+    "count" : 20
+  }, {
+    "bucket" : "<=5000ms",
+    "count" : 20
+  }, {
+    "bucket" : ">5000ms",
+    "count" : 0
+  } ],
+  "timesVsThreads" : [ {
+    "threads" : 1,
+    "avgResponseTime" : 794.0
+  }, {
+    "threads" : 3,
+    "avgResponseTime" : 605.6666666666666
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 563.5
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 482.5
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 511.5
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 463.5
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 458.0
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 498.5
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 450.0
+  }, {
+    "threads" : 2,
+    "avgResponseTime" : 464.0
+  } ]
+}

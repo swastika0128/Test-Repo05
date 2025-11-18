@@ -1,0 +1,28 @@
+[main] - VAF LOG: This is Info level Message
+[main] - VAF LOG: This is Debug Level
+[main] - VAF LOG: This is Error Level
+[main] - VAF LOG: Active Tags: @Smoke
+[main] - VAF LOG: Feature File Paths: src/main/resources/test-suite/UI
+[main] - VAF LOG: Step Definitions Paths: com.vaf.steps,com.example.ui.stepdef
+[Thread-0] - VAF LOG: Step Started
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - Starting License validation.
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - [0;32m SUCCESS [0m: Valid license found.. [Device ID: T9V6SDYS]
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - License validation Complete [32m [PASS] [0m.
+[main] - VAF LOG: This is Info level Message
+[main] - VAF LOG: This is Debug Level
+[main] - VAF LOG: This is Error Level
+[main] - VAF LOG: Active Tags: @Smoke
+[main] - VAF LOG: Feature File Paths: src/main/resources/test-suite/UI
+[main] - VAF LOG: Step Definitions Paths: com.vaf.steps,com.example.ui.stepdef
+[Thread-0] - VAF LOG: Step Started
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - Starting License validation.
+[main] - VAF LOG: This is Info level Message
+[main] - VAF LOG: This is Debug Level
+[main] - VAF LOG: This is Error Level
+[main] - VAF LOG: Active Tags: @Smoke
+[main] - VAF LOG: Feature File Paths: src/main/resources/test-suite/UI
+[main] - VAF LOG: Step Definitions Paths: com.vaf.steps,com.example.ui.stepdef
+[Thread-0] - VAF LOG: Step Started
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - Starting License validation.
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - [0;32m SUCCESS [0m: Valid license found.. [Device ID: T9V6SDYS]
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - License validation Complete [32m [PASS] [0m.

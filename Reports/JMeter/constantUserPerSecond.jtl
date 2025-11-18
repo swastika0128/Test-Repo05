@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,Encoding,IdleTime,Connect
+1760381999139,794,Test2,200,OK,Test2_ThreadGroup 2-1,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,791,UTF-8,0,644
+1760381999231,886,Test1,200,OK,Test1_ThreadGroup 1-1,text,,923,170,1,1,https://postman-echo.com/basic-auth,885,utf-8,0,633
+1760381999705,416,Test2,200,OK,Test2_ThreadGroup 2-2,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,416,UTF-8,0,271
+1760381999801,515,Test1,200,OK,Test1_ThreadGroup 1-2,text,,923,170,1,1,https://postman-echo.com/basic-auth,515,utf-8,0,269
+1760382000801,512,Test2,200,OK,Test2_ThreadGroup 2-3,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,512,UTF-8,0,378
+1760382000903,615,Test1,200,OK,Test1_ThreadGroup 1-3,text,,923,170,1,1,https://postman-echo.com/basic-auth,614,utf-8,0,376
+1760382001704,414,Test2,200,OK,Test2_ThreadGroup 2-4,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,414,UTF-8,0,280
+1760382001837,551,Test1,200,OK,Test1_ThreadGroup 1-4,text,,923,170,1,1,https://postman-echo.com/basic-auth,550,utf-8,0,284
+1760382002748,458,Test2,200,OK,Test2_ThreadGroup 2-5,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,458,UTF-8,0,322
+1760382002852,565,Test1,200,OK,Test1_ThreadGroup 1-5,text,,921,170,1,1,https://postman-echo.com/basic-auth,564,utf-8,0,325
+1760382003699,412,Test2,200,OK,Test2_ThreadGroup 2-6,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,412,UTF-8,0,278
+1760382003802,515,Test1,200,OK,Test1_ThreadGroup 1-6,text,,923,170,1,1,https://postman-echo.com/basic-auth,514,utf-8,0,270
+1760382004694,406,Test2,200,OK,Test2_ThreadGroup 2-7,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,406,UTF-8,0,271
+1760382004795,510,Test1,200,OK,Test1_ThreadGroup 1-7,text,,921,170,1,1,https://postman-echo.com/basic-auth,509,utf-8,0,267
+1760382005717,431,Test2,200,OK,Test2_ThreadGroup 2-8,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,431,UTF-8,0,290
+1760382005853,566,Test1,200,OK,Test1_ThreadGroup 1-8,text,,931,170,1,1,https://postman-echo.com/basic-auth,565,utf-8,0,305
+1760382006686,397,Test2,200,OK,Test2_ThreadGroup 2-9,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,397,UTF-8,0,265
+1760382006786,503,Test1,200,OK,Test1_ThreadGroup 1-9,text,,925,170,1,1,https://postman-echo.com/basic-auth,502,utf-8,0,262
+1760382007700,412,Test2,200,OK,Test2_ThreadGroup 2-10,text,,378,174,1,2,https://rahulshettyacademy.com/maps/api/place/add/json,412,UTF-8,0,276
+1760382007804,516,Test1,200,OK,Test1_ThreadGroup 1-10,text,,925,170,1,1,https://postman-echo.com/basic-auth,516,utf-8,0,275

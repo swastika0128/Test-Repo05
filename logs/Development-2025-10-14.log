@@ -1,0 +1,158 @@
+[Thread-0] - VAF LOG: All JMeter tests completed successfully.
+[main] - VAF LOG: This is Info level Message
+[main] - VAF LOG: This is Debug Level
+[main] - VAF LOG: This is Error Level
+[main] - VAF LOG: Active Tags: @Api
+[main] - VAF LOG: Feature File Paths: src/main/resources/test-suite/API
+[main] - VAF LOG: Step Definitions Paths: com.vaf.steps,com.example.ui.stepdef
+[Thread-0] - VAF LOG: Thread for Api Steps         ====================27
+[Thread-0] - VAF LOG: Instance of API
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - Starting License validation.
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - [0;32m SUCCESS [0m: Valid license found.. [Device ID: T9V6SDYS]
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - License validation Complete [32m [PASS] [0m.
+[Thread-0] - VAF LOG: Credentials                 ==================== {password=, username=}
+[Thread-0] - VAF LOG: ReplaceableParams           ==================== {name=Raza}
+[Thread-0] - VAF LOG: Props                       ==================== {preemptive=false}
+[Thread-0] - VAF LOG: Body of Request             ==================== {"location":{"lat":-38.383494,"lng":33.427362},"accuracy":50,"name":"Raza","phone_number":"null","address":"29, side layout, cohen 09","types":["shoe park","shop"],"website":"http://google.com","language":"French-IN"}
+[Thread-0] - VAF LOG: Headers of Request          ==================== {"Content-Type":"application/json"}
+[Thread-0] - VAF LOG: Query_params of Request     ==================== {"query":"qaclick123"}
+[Thread-0] - VAF LOG: Path_params of Request      ==================== {}
+[Thread-0] - VAF LOG: Cookies of Request          ==================== {"key":"value","Key":"value"}
+[Thread-0] - VAF LOG: EndPoint of Request         ==================== /maps/api/place/add/json
+[Thread-0] - VAF LOG: Username                    ==================== 
+[Thread-0] - VAF LOG: Password                    ==================== 
+[Thread-0] - VAF LOG: Non Authentication Request
+[Thread-0] - VAF LOG: Response of Request         ==================== {
+  "status": "OK",
+  "place_id": "58e4d2a2c25103c95b7f3ee9ff2344e6",
+  "scope": "APP",
+  "reference": "b370c1cc30a367c7d08acf39610b7018b370c1cc30a367c7d08acf39610b7018",
+  "id": "b370c1cc30a367c7d08acf39610b7018"
+}
+[Thread-0] - VAF LOG: ContentType of Response      ==================== application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Cookies of Response          ==================== {}
+[Thread-0] - VAF LOG: Response Header              ==================== Date=Mon, 13 Oct 2025 19:00:22 GMT
+Server=Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=POST
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length=194
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Content-Type=application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Status Line of Response      ==================== HTTP/1.1 200 OK
+[Thread-0] - VAF LOG: Detailed Cookies of Response ==================== 
+[Thread-0] - VAF LOG: ResponseTime                 ==================== 625ms
+[Thread-0] - VAF LOG: Statue Code of Response      ==================== 200
+[Thread-0] - VAF LOG: Global Stored Response       ===================={"place_id":"58e4d2a2c25103c95b7f3ee9ff2344e6"}
+[Thread-0] - VAF LOG: Credentials                 ==================== {password=, username=}
+[Thread-0] - VAF LOG: ReplaceableParams           ==================== {name=Raza}
+[Thread-0] - VAF LOG: Props                       ==================== {preemptive=false}
+[Thread-0] - VAF LOG: Body of Request             ==================== {"place_id":"58e4d2a2c25103c95b7f3ee9ff2344e6","address":"70 winter walk, USA","key":"qaclick123"}
+[Thread-0] - VAF LOG: Headers of Request          ==================== {"Content-Type":"application/json"}
+[Thread-0] - VAF LOG: Query_params of Request     ==================== {"query":"qaclick123"}
+[Thread-0] - VAF LOG: Path_params of Request      ==================== {}
+[Thread-0] - VAF LOG: Cookies of Request          ==================== {"Key":"value"}
+[Thread-0] - VAF LOG: EndPoint of Request         ==================== /maps/api/place/update/json
+[Thread-0] - VAF LOG: Username                    ==================== 
+[Thread-0] - VAF LOG: Password                    ==================== 
+[Thread-0] - VAF LOG: Non Authentication Request
+[Thread-0] - VAF LOG: Response of Request         ==================== {
+  "msg": "Address successfully updated"
+}
+[Thread-0] - VAF LOG: ContentType of Response      ==================== application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Cookies of Response          ==================== {}
+[Thread-0] - VAF LOG: Response Header              ==================== Date=Mon, 13 Oct 2025 19:00:22 GMT
+Server=Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=POST
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length=38
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Content-Type=application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Status Line of Response      ==================== HTTP/1.1 200 OK
+[Thread-0] - VAF LOG: Detailed Cookies of Response ==================== 
+[Thread-0] - VAF LOG: ResponseTime                 ==================== 2752ms
+[Thread-0] - VAF LOG: Statue Code of Response      ==================== 200
+[Thread-0] - VAF LOG: Credentials                 ==================== {password=, username=}
+[Thread-0] - VAF LOG: ReplaceableParams           ==================== {name=Raza}
+[Thread-0] - VAF LOG: Props                       ==================== {preemptive=false}
+[Thread-0] - VAF LOG: Body of Request             ==================== {"place_id":"58e4d2a2c25103c95b7f3ee9ff2344e6"}
+[Thread-0] - VAF LOG: Headers of Request          ==================== {"Content-Type":"application/json"}
+[Thread-0] - VAF LOG: Query_params of Request     ==================== {"query":"qaclick123"}
+[Thread-0] - VAF LOG: Path_params of Request      ==================== {}
+[Thread-0] - VAF LOG: Cookies of Request          ==================== {"Key":"value"}
+[Thread-0] - VAF LOG: EndPoint of Request         ==================== /maps/api/place/delete/json
+[Thread-0] - VAF LOG: Username                    ==================== 
+[Thread-0] - VAF LOG: Password                    ==================== 
+[Thread-0] - VAF LOG: Non Authentication Request
+[Thread-0] - VAF LOG: Response of Request         ==================== {
+  "status": "OK"
+}
+[Thread-0] - VAF LOG: ContentType of Response      ==================== application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Cookies of Response          ==================== {}
+[Thread-0] - VAF LOG: Response Header              ==================== Date=Mon, 13 Oct 2025 19:00:25 GMT
+Server=Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=POST
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length=15
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Content-Type=application/json;charset=UTF-8
+[Thread-0] - VAF LOG: Status Line of Response      ==================== HTTP/1.1 200 OK
+[Thread-0] - VAF LOG: Detailed Cookies of Response ==================== 
+[Thread-0] - VAF LOG: ResponseTime                 ==================== 2750ms
+[Thread-0] - VAF LOG: Statue Code of Response      ==================== 200
+[Thread-0] - VAF LOG: Thread for Api Steps         ====================27
+[Thread-0] - VAF LOG: Instance of API
+[Thread-0] - VAF LOG: Credentials                 ==================== {password=password, username=postman}
+[Thread-0] - VAF LOG: ReplaceableParams           ==================== {name=Raza}
+[Thread-0] - VAF LOG: Props                       ==================== {preemptive=false}
+[Thread-0] - VAF LOG: Body of Request             ==================== {}
+[Thread-0] - VAF LOG: Headers of Request          ==================== {}
+[Thread-0] - VAF LOG: Query_params of Request     ==================== {}
+[Thread-0] - VAF LOG: Path_params of Request      ==================== {}
+[Thread-0] - VAF LOG: Cookies of Request          ==================== {"Key":"value"}
+[Thread-0] - VAF LOG: EndPoint of Request         ==================== /basic-auth
+[Thread-0] - VAF LOG: Username                    ==================== postman
+[Thread-0] - VAF LOG: Password                    ==================== password
+[Thread-0] - VAF LOG: Authentication Request
+[Thread-0] - VAF LOG: Response of Request         ==================== {
+  "authenticated": true
+}
+[Thread-0] - VAF LOG: ContentType of Response      ==================== application/json; charset=utf-8
+[Thread-0] - VAF LOG: Cookies of Response          ==================== {sails.sid=s%3A6t2qJYj3yGplJJIjMybSlQ4Vg2QREdVB.blgq2wpaKs3SSp4EbfcCimzxA4teEz2SEqC4vjRuFA4, __cf_bm=Q7i6ExHTL1AQx30ZElFMzojc2qk9cQFl_GaUyImLIY4-1760382028-1.0.1.1-MR0BGzl6JcVPwVKM1KtKfgJ6krcXNLXa_I4SCVoRQY8toVl2EXFR3bw7wUR_SkLDNUYyTn3xCgRNTYty7fgTxQZUZYAT1qc8ztteAOqWBls, _cfuvid=675SbbdrJnP3szlZEemx6dDUysOF2yvjlUc7Pn.SwMY-1760382028914-0.0.1.1-604800000}
+[Thread-0] - VAF LOG: Response Header              ==================== Date=Mon, 13 Oct 2025 19:00:28 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=22
+Connection=keep-alive
+CF-RAY=98e114800a8e536e-MRS
+etag=W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+vary=Accept-Encoding
+Set-Cookie=sails.sid=s%3A6t2qJYj3yGplJJIjMybSlQ4Vg2QREdVB.blgq2wpaKs3SSp4EbfcCimzxA4teEz2SEqC4vjRuFA4; Path=/; HttpOnly
+Set-Cookie=__cf_bm=Q7i6ExHTL1AQx30ZElFMzojc2qk9cQFl_GaUyImLIY4-1760382028-1.0.1.1-MR0BGzl6JcVPwVKM1KtKfgJ6krcXNLXa_I4SCVoRQY8toVl2EXFR3bw7wUR_SkLDNUYyTn3xCgRNTYty7fgTxQZUZYAT1qc8ztteAOqWBls; path=/; expires=Mon, 13-Oct-25 19:30:28 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie=_cfuvid=675SbbdrJnP3szlZEemx6dDUysOF2yvjlUc7Pn.SwMY-1760382028914-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time=6
+cf-cache-status=DYNAMIC
+Server=cloudflare
+[Thread-0] - VAF LOG: Status Line of Response      ==================== HTTP/1.1 200 OK
+[Thread-0] - VAF LOG: Detailed Cookies of Response ==================== sails.sid=s%3A6t2qJYj3yGplJJIjMybSlQ4Vg2QREdVB.blgq2wpaKs3SSp4EbfcCimzxA4teEz2SEqC4vjRuFA4;Path=/;HttpOnly
+__cf_bm=Q7i6ExHTL1AQx30ZElFMzojc2qk9cQFl_GaUyImLIY4-1760382028-1.0.1.1-MR0BGzl6JcVPwVKM1KtKfgJ6krcXNLXa_I4SCVoRQY8toVl2EXFR3bw7wUR_SkLDNUYyTn3xCgRNTYty7fgTxQZUZYAT1qc8ztteAOqWBls;Path=/;Domain=.postman-echo.com;Secure;HttpOnly;Expires=10/13/25, 7:30 PM;SameSite=None
+_cfuvid=675SbbdrJnP3szlZEemx6dDUysOF2yvjlUc7Pn.SwMY-1760382028914-0.0.1.1-604800000;Path=/;Domain=.postman-echo.com;Secure;HttpOnly;SameSite=None
+[Thread-0] - VAF LOG: ResponseTime                 ==================== 989ms
+[Thread-0] - VAF LOG: Statue Code of Response      ==================== 200
+[main] - VAF LOG: This is Info level Message
+[main] - VAF LOG: This is Debug Level
+[main] - VAF LOG: This is Error Level
+[main] - VAF LOG: Active Tags: @CompletePageCheck
+[main] - VAF LOG: Feature File Paths: src/main/resources/test-suite/Accessibility
+[main] - VAF LOG: Step Definitions Paths: com.vaf.steps,com.example.ui.stepdef
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - Starting License validation.
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - [0;32m SUCCESS [0m: Valid license found.. [Device ID: T9V6SDYS]
+[Thread-0] - VAF LOG: [0;35m [VAF License Manager] [0m - License validation Complete [32m [PASS] [0m.
+[Thread-0] - VAF LOG (CHROME): Script execution result: null
